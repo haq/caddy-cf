@@ -1,5 +1,5 @@
 # caddy-cf
-A caddy docker image containing the cloudflare & dynamicdns module.
+A caddy docker image containing the [cloudflare](https://github.com/caddy-dns/cloudflare) & [dynamicdns](https://github.com/mholt/caddy-dynamicdns) modules.
 
 ## docker-cli
 
