@@ -34,6 +34,8 @@ docker run -d \
         }
         check_interval 5m
         ip_source simple_http https://icanhazip.com
+        versions ipv4 ipv6
+        ttl 1h
     }
 }
 
