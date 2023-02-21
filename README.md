@@ -1,15 +1,20 @@
+[![create and publish docker image](https://github.com/haq/caddy-cf/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/haq/caddy-cf/actions/workflows/docker-publish.yml)
+
 # caddy-cf
+
 A caddy docker image containing the [cloudflare](https://github.com/caddy-dns/cloudflare) & [dynamicdns](https://github.com/mholt/caddy-dynamicdns) modules.
 
 ## docker-cli
 
 ### volumes
+
 ```shell
 docker volume create caddy_config
 docker volume create caddy_data
 ```
 
 ### container
+
 ```shell
 docker run -d \
   --name caddy \
@@ -23,6 +28,7 @@ docker run -d \
 ```
 
 ## sample Caddyfile
+
 ```Caddyfile
 {
     email email_address_for_notifications
