@@ -27,7 +27,7 @@ docker run -d \
   ghcr.io/haq/caddy-cf
 ```
 
-## sample Caddyfile
+## caddyfile
 
 ```Caddyfile
 {
