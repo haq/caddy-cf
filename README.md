@@ -1,4 +1,6 @@
-[![create and publish docker image](https://github.com/haq/caddy-cf/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/haq/caddy-cf/actions/workflows/docker-publish.yml)
+![create and publish docker image](https://github.com/haq/caddy-cf/actions/workflows/docker-publish.yml/badge.svg)
+![docker image size](https://ghcr-badge.egpl.dev/haq/caddy-cf/size)
+![github code size in bytes](https://img.shields.io/github/languages/code-size/haq/caddy-cf)
 
 # caddy-cf
 
